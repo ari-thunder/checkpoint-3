@@ -1,0 +1,40 @@
+
+/* DO NOT QUESTION MY COLOUR CHOICE, thanks :) */
+
+header {
+    background-color: #836953;
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+nav {
+    display: inline;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+body {
+    font-family: 'Roboto', sans-serif; 
+    /*!!!!!!!!"font-family: Roboto;" didn't work so I googled this one!!!!!!!!!!!!!*/
+}
+h1, h3 {
+    font-weight: bold;
+}
+.about, .image, .work, .resume, .bottom {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid rgb(232, 232, 232);
+    background-color: #e9be9b4c;
+}
+#copyright {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4b3830;
+    color: white;
+}
